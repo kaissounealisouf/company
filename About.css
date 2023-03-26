@@ -1,0 +1,104 @@
+body {
+	background-color: #f9fbfd;
+	overflow: auto;
+	border-style: solid;
+  border-top-color: coral;
+}
+
+header {
+	background-color: #262626;
+	height: 80px;
+	margin-bottom: 30px;border-style: solid;
+	border-top-color: coral;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-style: solid;
+	border-top-color: coral;
+}
+
+a {
+	text-decoration: none;
+	border-style: solid;
+	border-top-color: coral;}
+
+	a:hover,
+	a:focus {border-style: solid;
+		border-top-color: coral;
+		text-decoration: none;
+		outline: none;
+		color: darken(black, 10%);
+	 }
+
+
+pre a {
+	color: black;
+	border-style: solid;
+  border-top-color: coral;
+}
+
+footer {
+	background-color: #262626;
+	width: 100%;
+	border-style: solid;
+  border-top-color: coral;
+	height: 50px;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+	a {
+		color: slategray;
+	}
+	span {
+		color: gray;
+		border-style: solid;
+  border-top-color: coral;
+	}
+
+
+h1 {
+	color: #fff;
+	margin: auto;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+.gsap-logo {
+	padding-left: 15px;
+	border-style: solid;
+  border-top-color: coral;
+}
+
+.bannerlab-logo {
+	width: 200px;
+	height: 80px;
+	padding-right: 15px;
+}
+
+.block-title {
+	background-color: darkblue;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 4px;
+	padding: 5px 10px;
+	text-align: center;
+	border-style: solid;
+  border-top-color: coral;
+}
+
+@media (max-width: 700px) {
+	h1 {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 1rem;
+		border-style: solid;
+  border-top-color: coral;
+	}
+}
